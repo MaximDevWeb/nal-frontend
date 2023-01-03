@@ -1,4 +1,4 @@
-name: Laravel Deploy
+name: Nuxt Deploy
 on:
   pull_request:
     branches: [master]
