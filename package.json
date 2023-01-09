@@ -3,11 +3,23 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
-    "generate": "nuxt generate",
+    "generate": "nuxt generate ",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "nuxt": "3.0.0"
+    "@nuxtjs/tailwindcss": "^6.2.0",
+    "@types/lodash": "^4.14.191",
+    "nuxt": "3.0.0",
+    "prettier": "2.8.1",
+    "sass": "^1.57.1"
+  },
+  "dependencies": {
+    "@nuxtjs/composition-api": "^0.33.1",
+    "@pinia/nuxt": "^0.4.6",
+    "i": "^0.3.7",
+    "lodash": "^4.17.21",
+    "npm": "^9.2.0",
+    "pinia": "^2.0.28"
   }
 }
